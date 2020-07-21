@@ -1,5 +1,5 @@
 {
-    "name": "debugging",
+    "name": "@mauriora/debugging",
     "version": "0.0.1",
     "description": "Debugging tools like callerAndFName",
     "main": "dist/index.ts",
