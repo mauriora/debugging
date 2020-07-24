@@ -2,21 +2,23 @@
     "name": "@mauriora/debugging",
     "version": "0.0.1",
     "description": "Debugging tools like callerAndFName",
-    "main": "dist/index.ts",
+    "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "eslint src --ext .ts && tsc"
     },
-    "keywords": ["caller name", "debugging", "logging"],
+    "keywords": [
+        "caller name",
+        "debugging",
+        "logging"
+    ],
     "author": {
         "name": "Dennis Kuhn",
         "email": "dennis@kuhn.geek.nz"
     },
     "license": "MIT",
-    "config": {
-    },
-    "eslintConfig": {
-    },
+    "config": {},
+    "eslintConfig": {},
     "devDependencies": {
         "@types/node": "^12.12.5",
         "@typescript-eslint/eslint-plugin": "^2.26.0",
@@ -25,7 +27,8 @@
         "eslint-plugin-import": "^2.20.0",
         "node-loader": "^0.6.0",
         "ts-loader": "^6.2.1",
-        "typescript": "^3.8.3"
+        "typescript": "^3.8.3",
+        "@types/classnames": "^2.2.8"
     },
     "dependencies": {
         "@types/classnames": "^2.2.8",

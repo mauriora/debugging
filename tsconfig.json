@@ -15,7 +15,7 @@
         "declaration": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
-        "isolatedModules": true,
+        "isolatedModules": false,
         "lib": [
             "dom",
             "dom.iterable",
