@@ -43,4 +43,7 @@ export const checkOrphans = (showFound = false) => {
         }
     }
 };
+if (global.window !== undefined) {
+    global.window.checkOrphans = checkOrphans;
+}
 //# sourceMappingURL=CheckOrphans.js.map
