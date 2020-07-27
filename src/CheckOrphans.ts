@@ -38,3 +38,17 @@ export const checkOrphans = (showFound = false): void => {
         }
     }
 };
+
+interface Win extends Window {
+    checkOrphans: () => void;
+}
+
+declare global {
+    interface Window {
+        checkOrphans: () => void;
+    }
+}
+
+if (global.window !== undefined) {
+    global.window.checkOrphans = checkOrphans;
+}
