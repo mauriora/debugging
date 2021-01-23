@@ -1,7 +1,7 @@
 {
     "name": "@mauriora/debugging",
-    "version": "0.0.2",
-    "description": "Debugging tools like callerAndFName",
+    "version": "0.0.3",
+    "description": "Debugging tools like callerAndFName and logLocalStorageStringCommand",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
